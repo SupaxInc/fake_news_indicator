@@ -1,0 +1,10 @@
+.body-content {
+    width: 420px;
+    height: 130px;
+}
+
+.content {
+    font-size: 14px;
+    background-color: white;
+    margin: 15px 30px 15px 30px;
+}
