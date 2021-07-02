@@ -1,5 +1,5 @@
-chrome.runtime.onMessage.addListener(handleMessages);
 
+chrome.runtime.onMessage.addListener(handleMessages);
 
 
 function handleMessages(request, sender, sendResponse) {
@@ -20,6 +20,7 @@ function handleMessages(request, sender, sendResponse) {
     }
 }
 
+// Saves the highlighted text on the page
 function getHighlightedText() {
     var highlightedTxt = window.getSelection().toString();
     if(highlightedTxt != "") {
