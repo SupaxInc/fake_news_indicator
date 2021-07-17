@@ -1,0 +1,9 @@
+{
+    "name": "com.pysearch.bat",
+    "description": "Uses web scraper to search for the sent message.",
+    "path": "H:\\Documents\\GitHub\\fake_news_indicator\\python\\webscraper.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://hlgemfdcilmohniglbbiecekjblkjcmm/"
+    ]
+}
